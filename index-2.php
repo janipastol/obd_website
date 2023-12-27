@@ -85,7 +85,7 @@
         <div class="header_navbar">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index-2.html">
+                    <a class="navbar-brand" href="index-2.php">
                         <img src="assets/images/logo.png" alt="logo" />
                     </a>
 
@@ -100,24 +100,24 @@
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li>
-                                <a class="active" href="index-2.html">Home <span class="line"></span></a>
+                                <a class="active" href="index-2.php">Home <span class="line"></span></a>
                             </li>
                             <li>
-                                <a href="categories.html">Categories <span class="line"></span></a>
+                                <a href="categories.php">Categories <span class="line"></span></a>
                             </li>
                             <!-- <li>
                                 <a href="#">Pages <i class="fa fa-angle-down"></i>
                                     <span class="line"></span></a>
 
                                 <ul class="sub-menu">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="product.html">Listing</a></li>
-                                    <li><a href="product-details.html">Product Details</a></li>
-                                    <li><a href="error-404.html">404</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="sign-in.html">Sign In</a></li>
-                                    <li><a href="sign-up.html">Sign Up</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="product.php">Listing</a></li>
+                                    <li><a href="product-details.php">Product Details</a></li>
+                                    <li><a href="error-404.php">404</a></li>
+                                    <li><a href="faq.php">FAQ</a></li>
+                                    <li><a href="pricing.php">Pricing</a></li>
+                                    <li><a href="sign-in.php">Sign In</a></li>
+                                    <li><a href="sign-up.php">Sign Up</a></li>
                                 </ul>
                             </li> -->
 
@@ -125,12 +125,12 @@
                                 <a href="#">Blog <i class="fa fa-angle-down"></i>
                                     <span class="line"></span></a>
                                 <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="blog-details.php">Blog Details</a></li>
                                 </ul>
                             </li> -->
                             <!-- <li>
-                                <a href="contact.html">Contact <span class="line"></span></a>
+                                <a href="contact.php">Contact <span class="line"></span></a>
                             </li> -->
                         </ul>
                     </div>
@@ -145,29 +145,29 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                         <ul>
                                             <li>
-                                                <a href="dashboard.html"><i class="fal fa-tachometer-alt-average"></i>
+                                                <a href="dashboard.php"><i class="fal fa-tachometer-alt-average"></i>
                                                     Dashboard</a>
                                             </li>
                                             <li>
-                                                <a href="profile-settings.html"><i class="fal fa-cog"></i> Profile
+                                                <a href="profile-settings.php"><i class="fal fa-cog"></i> Profile
                                                     Settings</a>
                                             </li>
                                             <li>
-                                                <a href="my-ads.html"><i class="fal fa-layer-group"></i> My Ads</a>
+                                                <a href="my-ads.php"><i class="fal fa-layer-group"></i> My Ads</a>
                                             </li>
                                             <li>
-                                                <a href="offermessages.html"><i class="fal fa-envelope"></i>
+                                                <a href="offermessages.php"><i class="fal fa-envelope"></i>
                                                     Offers/Messages</a>
                                             </li>
                                             <li>
-                                                <a href="payments.html"><i class="fal fa-wallet"></i> Payments</a>
+                                                <a href="payments.php"><i class="fal fa-wallet"></i> Payments</a>
                                             </li>
                                             <li>
-                                                <a href="favourite-ads.html"><i class="fal fa-heart"></i> My
+                                                <a href="favourite-ads.php"><i class="fal fa-heart"></i> My
                                                     Favourites</a>
                                             </li>
                                             <li>
-                                                <a href="privacy-setting.html"><i class="fal fa-star"></i> Privacy
+                                                <a href="privacy-setting.php"><i class="fal fa-star"></i> Privacy
                                                     Settings</a>
                                             </li>
                                             <li>
@@ -177,7 +177,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a class="sign-up" href="post-ads.html">Post Ads</a></li>
+                            <li><a class="sign-up" href="post-ads.php">Post Ads</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -305,7 +305,7 @@
                           class="main-btn btn-block text-nowrap p-0 m-0"
                           style="font-size: 2rem;"
                         >
-                          <a class="text-white" href="sign-up.html">SIGN UP</a>
+                          <a class="text-white" href="sign-up.php">SIGN UP</a>
                         </button>
                       </div>
                     </div>
@@ -363,7 +363,7 @@
                 </div>
                 <div class="col-lg-4 text-right">
                     <button class="main-btn ">
-                        <a class="text-white" href="post-ads.html">
+                        <a class="text-white" href="post-ads.php">
                             FREE
                         </a>
                     </button>
@@ -393,7 +393,7 @@
                         <div class="content">
                             <h6 class="title">DSLR Camera</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -404,7 +404,7 @@
                         <div class="content">
                             <h6 class="title">Cell Phone</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -415,7 +415,7 @@
                         <div class="content">
                             <h6 class="title">Laptop</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -426,7 +426,7 @@
                         <div class="content">
                             <h6 class="title">Headphones</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -437,7 +437,7 @@
                         <div class="content">
                             <h6 class="title">Jewelry</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -448,7 +448,7 @@
                         <div class="content">
                             <h6 class="title">Backpacks</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -459,7 +459,7 @@
                         <div class="content">
                             <h6 class="title">Vehicles</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -470,7 +470,7 @@
                         <div class="content">
                             <h6 class="title">Furniture</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -481,7 +481,7 @@
                         <div class="content">
                             <h6 class="title">Gadgets</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -492,12 +492,12 @@
                         <div class="content">
                             <h6 class="title">Watches</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href="product.php"></a>
                     </div>
                 </div>
 
                 <div class="category_btn">
-                    <a class="main-btn" href="categories.html">View all Catagories</a>
+                    <a class="main-btn" href="categories.php">View all Catagories</a>
                 </div>
             </div>
         </div>
@@ -565,7 +565,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB Ram, 128 GB Storage</a>
+                                            <a href="product-details.php">8 GB Ram, 128 GB Storage</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>Karachi, Pakistan</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -587,7 +587,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">6 GB Ram, 128 GB Storage</a>
+                                            <a href="product-details.php">6 GB Ram, 128 GB Storage</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>Lahore, Pakistan</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -608,7 +608,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">PTA Approved, 95% battery health</a>
+                                            <a href="product-details.php">PTA Approved, 95% battery health</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>Saddar, Karachi. Pakistan</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -630,7 +630,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB Ram, 256 GB Storage</a>
+                                            <a href="product-details.php">8 GB Ram, 256 GB Storage</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>Quetta, Pakistan</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -656,7 +656,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -678,7 +678,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -700,7 +700,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -722,7 +722,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -744,7 +744,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -766,7 +766,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -788,7 +788,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -810,7 +810,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.html">8 GB DDR4 Ram, 4th Gen</a>
+                                            <a href="product-details.php">8 GB DDR4 Ram, 4th Gen</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>New York, USA</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -879,9 +879,9 @@
                                 <img src="assets/images/locations-1.jpg" alt="Locations">
                             </div>
                             <div class="locations_content">
-                                <h5 class="title"><a href="product.html"><i class="far fa-map-marker-alt"></i>Los Angeles</a></h5>
+                                <h5 class="title"><a href="product.php"><i class="far fa-map-marker-alt"></i>Los Angeles</a></h5>
                                 <p>25 ads posted in this location</p>
-                                <a class="view" href="product.html">View All Ads Here <i class="fa fa-angle-right"></i></a>
+                                <a class="view" href="product.php">View All Ads Here <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -891,9 +891,9 @@
                                 <img src="assets/images/locations-2.jpg" alt="Locations">
                             </div>
                             <div class="locations_content">
-                                <h5 class="title"><a href="product.html"><i class="far fa-map-marker-alt"></i>California</a></h5>
+                                <h5 class="title"><a href="product.php"><i class="far fa-map-marker-alt"></i>California</a></h5>
                                 <p>7 ads posted in this location</p>
-                                <a class="view" href="product.html">View All Ads Here <i class="fa fa-angle-right"></i></a>
+                                <a class="view" href="product.php">View All Ads Here <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -903,9 +903,9 @@
                                 <img src="assets/images/locations-3.jpg" alt="Locations">
                             </div>
                             <div class="locations_content">
-                                <h5 class="title"><a href="product.html"><i class="far fa-map-marker-alt"></i>New York</a></h5>
+                                <h5 class="title"><a href="product.php"><i class="far fa-map-marker-alt"></i>New York</a></h5>
                                 <p>3 ads posted in this location</p>
-                                <a class="view" href="product.html">View All Ads Here <i class="fa fa-angle-right"></i></a>
+                                <a class="view" href="product.php">View All Ads Here <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -991,7 +991,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">8 GB Ram, 128 GB Storage</a>
+                                    <a href="product-details.php">8 GB Ram, 128 GB Storage</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Karachi, Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1013,7 +1013,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">6 GB Ram, 128 GB Storage</a>
+                                    <a href="product-details.php">6 GB Ram, 128 GB Storage</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Lahore, Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1034,7 +1034,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">PTA Approved, 95% battery health</a>
+                                    <a href="product-details.php">PTA Approved, 95% battery health</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Saddar, Karachi. Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1055,7 +1055,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">8 GB Ram, 256 GB Storage</a>
+                                    <a href="product-details.php">8 GB Ram, 256 GB Storage</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Quetta, Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1067,7 +1067,7 @@
                     </div>
                 </div>
                 <div class="published_btn mt-2">
-                    <a href="product.html" class="main-btn">View all Ads</a>
+                    <a href="product.php" class="main-btn">View all Ads</a>
                 </div>
             </div>
         </div>
@@ -1099,7 +1099,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">1.6 engine 200 hp 5 seater</a>
+                                    <a href="product-details.php">1.6 engine 200 hp 5 seater</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Karachi, Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1121,7 +1121,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">600cc 4 seater </a>
+                                    <a href="product-details.php">600cc 4 seater </a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Lahore, Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1142,7 +1142,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">150cc 2 seater </a>
+                                    <a href="product-details.php">150cc 2 seater </a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Saddar, Karachi. Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1163,7 +1163,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.html">2500cc luxury car</a>
+                                    <a href="product-details.php">2500cc luxury car</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>Quetta, Pakistan</p>
                                 <div class="ads_price_date d-flex justify-content-between">
@@ -1175,7 +1175,7 @@
                     </div>
                 </div>
                 <div class="published_btn mt-2">
-                    <a href="product.html" class="main-btn">View all Ads</a>
+                    <a href="product.php" class="main-btn">View all Ads</a>
                 </div>
             </div>
         </div>
@@ -1363,7 +1363,7 @@
                             <img src="assets/images/blog-1.jpg" alt="blog">
                         </div>
                         <div class="blog_content">
-                            <h4 class="title"><a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
+                            <h4 class="title"><a href="blog-details.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
                             <ul class="meta">
                                 <li><i class="fal fa-clock"></i><a href="#">23 Jan, 2023</a></li>
                                 <li><i class="fal fa-comment-dots"></i><a href="#">4 Comments</a></li>
@@ -1377,7 +1377,7 @@
                             <img src="assets/images/blog-2.jpg" alt="blog">
                         </div>
                         <div class="blog_content">
-                            <h4 class="title"><a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
+                            <h4 class="title"><a href="blog-details.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
                             <ul class="meta">
                                 <li><i class="fal fa-clock"></i><a href="#">23 Jan, 2023</a></li>
                                 <li><i class="fal fa-comment-dots"></i><a href="#">4 Comments</a></li>
@@ -1391,7 +1391,7 @@
                             <img src="assets/images/blog-3.jpg" alt="blog">
                         </div>
                         <div class="blog_content">
-                            <h4 class="title"><a href="blog-details.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
+                            <h4 class="title"><a href="blog-details.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4>
                             <ul class="meta">
                                 <li><i class="fal fa-clock"></i><a href="#">23 Jan, 2023</a></li>
                                 <li><i class="fal fa-comment-dots"></i><a href="#">4 Comments</a></li>
@@ -1401,7 +1401,7 @@
                 </div>
             </div>
             <div class="blog_btn text-center mt-50">
-                <a href="blog.html" class="main-btn">View All Post</a>
+                <a href="blog.php" class="main-btn">View All Post</a>
             </div>
         </div>
     </section> -->
