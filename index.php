@@ -13,7 +13,7 @@
   ?>
 </head>
 
-<body class="gray-bg">
+<body class="gray-bg" ng-app="myAngularApp" ng-controller="webController">
   <!--====== PRELOADER PART START ======-->
 
   <div class="preloader">
