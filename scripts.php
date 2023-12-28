@@ -13,7 +13,7 @@
  <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
  <!--====== Nice Select js ======-->
- <script src="assets/js/jquery.nice-select.min.js"></script>
+ <!-- <script src="assets/js/jquery.nice-select.min.js"></script> -->
 
  <!--====== Counter Up js ======-->
  <script src="assets/js/waypoints.min.js"></script>

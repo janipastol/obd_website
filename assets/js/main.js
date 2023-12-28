@@ -49,7 +49,7 @@ $(function () {
 
     //===== Nice Select
 
-    $('select').niceSelect();
+    // $('select').niceSelect();
 
 
     //===== Counter Up

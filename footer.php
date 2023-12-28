@@ -1,5 +1,5 @@
 <footer class="footer_area">
-    <div class="footer_widget pt-70 pb-120">
+    <div class="footer_widget pt-70 pb-30">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div class="footer_copyright pt-15 pb-30">
+    <!-- <div class="footer_copyright pt-15 pb-30">
         <div class="container">
             <div class="footer_copyright_wrapper text-center d-sm-flex justify-content-between align-items-center">
                 <div class="copyright mt-15">
@@ -69,5 +69,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </footer>

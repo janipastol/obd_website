@@ -44,6 +44,9 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
   $scope.adminName = "";
   $scope.adminProfile = "";
 
+  // Token
+  $scope.token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNTUxM2YyMTY4MTBmMzhjYjc4NTA5MDA1ODkzMjlkODQ3NmZlMDhkZDg4NTRiOTkzOWI0MDZiNzgwNTk3MTk2NmNmODgxMGNlZDhlNzNkZDciLCJpYXQiOjE3MDM3NDg5MDguOTg5OTQ3LCJuYmYiOjE3MDM3NDg5MDguOTg5OTQ5LCJleHAiOjE3MzUzNzEzMDguOTg1NzQ4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.VcQvJQPdjTcecVxSdcvF3rxgnFwemZ-1a_9xhPA1obj5N6L-o2RIVrIS3epXRzB5lTrmSdEhVDYMinPKDvyuKRd8wdDQg6VTvco1HPe8FP3mL3T05K9-HyFvuZ43pAbspthdSO7N9jaz3X35F209hfkgE556yodQF1E14X32hTKsMBTUTOS5pXt5kNu11YV1R7kXgMvC3CgJgVLX1NndVJNzZDQ8xH58ILH6-uqmaZAStpZlj_g2PSF_mcp6QStM5RfbsAsazC5tyc8GF37Ca8uqnxWnw9B2gVGPm5icqicfjZ_0A05eWUjIBSHwx_oogZPIB7n8ophVB5XZH_LGVUO1SIRjAWLiHvch3VxAOiy50KIw8adVdxAto9_1b_oWpzmEquW7oqKnMjwg4LqhYd17mAzVMXeyWz0edEzGbTexUSwO9nURLnY3P6-dSV7LDbe2X55dWRFSCZDjyfF3vgeAkjCDgiIfDGXcrc0CRZEYu4qWWKJJ-_PAB_zgUCX0Y3H8DR1Jyw-nFG8PZmdrNpfwqrOIZXhPQL3X9yQj82CSQs48e5jXc0_1_scXkjE8n0ZRd_U7xYhkjVVc6RmYtVPaKsElElgg3ouWGHOHB2mZyeDcKwE_AMdMYdySkvbLBmRIHxnKLBouEmKc2gWjJW5Uv8I-YLm-c4ujHzVxIaQ"
+
   // Redirect Function
   $scope.redirect = function (url) {
     window.location.href = url;
@@ -51,7 +54,6 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
   // Redirect Function
 
   // Login Function
-
   $scope.login = function () {
     $http({
       method: "POST",
@@ -122,12 +124,14 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
       data: {},
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer " + $cookies.get("token"),
+        // Authorization: "Bearer " + $cookies.get("token"),
+        Authorization: "Bearer " + $scope.token,
       },
     })
       .then(function (response) {
         // console.log(response.data);
         $scope.categoriesList = response.data["categories"];
+        console.log($scope.categoriesList);
       })
       .catch(function (error) {
         console.log("This is error");
@@ -135,6 +139,66 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
       });
   };
   //get list of all categories
+
+  //get list of all product categories
+  $scope.getProductCategory = function (id) {
+    $http({
+      method: "GET",
+      url: $scope.dbURL + "view-products-category?category_id=" + id,
+      data: {},
+      headers: {
+        "Content-Type": "application/json",
+        // Authorization: "Bearer " + $cookies.get("token"),
+        Authorization: "Bearer " + $scope.token,
+      },
+    })
+      .then(function (response) {
+        if (id == 52) {
+          $scope.productCategoriesListBikes = response.data["products"];  
+        }
+        else if (id == 53) {
+          $scope.productCategoriesListKids = response.data["products"];
+        }
+        else if (id == 54) {
+          $scope.productCategoriesListBooks = response.data["products"];
+        }
+        else if (id == 55) {
+          $scope.productCategoriesListFashion = response.data["products"];
+        }
+        else if (id == 56) {
+          $scope.productCategoriesListFurniture = response.data["products"];
+        }
+        else if (id == 57) {
+          $scope.productCategoriesListAnimals = response.data["products"];
+        }
+        else if (id == 58) {
+          $scope.productCategoriesListJobs = response.data["products"];
+        }
+        else if (id == 59) {
+          $scope.productCategoriesListServices = response.data["products"];
+        }
+        else if (id == 60) {
+          $scope.productCategoriesListVehicle = response.data["products"];
+        }
+        else if (id == 61) {
+          $scope.productCategoriesListElectronics = response.data["products"];
+        }
+        else if (id == 62) {
+          $scope.productCategoriesListProperty = response.data["products"];
+        }
+        else if (id == 63) {
+          $scope.productCategoriesListMobile = response.data["products"];
+        }
+        // console.log(response.data);
+        // $scope.productCategoriesList = response.data["products"];
+        console.log($scope.productCategoriesList);
+      })
+      .catch(function (error) {
+        console.log("This is error");
+        console.log(error);
+      });
+  };
+  //get list of all product categories
 
   //add category
   $scope.addCategory = function () {
@@ -146,6 +210,7 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
         url: $scope.dbURL + "store-category",
         data: {
           name: $scope.catName,
+
         },
         headers: {
           "Content-Type": "application/json",
@@ -199,7 +264,7 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
       data: {},
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer " + $cookies.get("token"),
+        Authorization: "Bearer " + $scope.token,
       },
     })
       .then(function (response) {
@@ -376,16 +441,22 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
       data: {},
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer " + $cookies.get("token"),
+        Authorization: "Bearer " + $scope.token,
       },
     })
       .then(function (response) {
+        if (status == 0) {
+          $scope.allAds = response.data["products"];  
+        }
+        else if (status == 7) {
+          $scope.featuredAds = response.data["products"];
+        }
         // console.log(response.data);
-        $scope.allAds = response.data["products"];
+        
         // $scope.adsCategory = response.data["products"][0]["category"];
         // console.log($scope.adsCategory);
         // $scope.adsCategory = $scope.allAds["category"];
-        console.log($scope.allAds);
+        // console.log($scope.allAds);
       })
       .catch(function (error) {
         console.log("This is error");
