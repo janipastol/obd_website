@@ -279,7 +279,7 @@
                                     <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="product-details.php">{{p.description | limitTo:30}}</a>
+                                    <a href="product-details.php?id={{p.id}}">{{p.description | limitTo:30}}</a>
                                 </h4>
                                 <p><i class="far fa-map-marker-alt"></i>{{p.user.location}}</p>
                                 <div class="ads_price_date d-flex justify-content-between">

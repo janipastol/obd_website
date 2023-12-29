@@ -140,6 +140,65 @@ app.controller("webController", function ($scope, $http, $cookies, $location) {
   };
   //get list of all categories
 
+  //share ad
+  $scope.shareAd = async function  ()  {
+    $scope.url = $location.absUrl();
+    await navigator.clipboard.writeText($scope.url);
+    alert("Link Copied")
+  }
+  //share ad
+
+    //related product ads
+    $scope.relatedAds = function (id) {
+      $http({
+        method: "GET",
+        url: $scope.dbURL + "view-products-category?category_id=" + id,
+        data: {},
+        headers: {
+          "Content-Type": "application/json",
+          // Authorization: "Bearer " + $cookies.get("token"),
+          Authorization: "Bearer " + $scope.token,
+        },
+      })
+        .then(function (response) {
+          // console.log(response.data);
+          $scope.relatedProductAds = response.data["products"];
+          console.log($scope.productCategoriesList);
+        })
+        .catch(function (error) {
+          console.log("This is error");
+          console.log(error);
+        });
+    };
+    //related product ads
+
+  //get products details
+  $scope.getProductDetails = function () {
+    $scope.url = $location.absUrl();
+    $scope.breakUrl = $scope.url.split("=")[1];
+    $http({
+      method: "GET",
+      url: $scope.dbURL + "view-products?product_id=" + $scope.breakUrl,
+      headers: {
+        "Content-Type": "application/json",
+        // Authorization: "Bearer " + $cookies.get("token"),
+        Authorization: "Bearer " + $scope.token,
+      },
+    })
+      .then(function (response) {
+        // console.log(response.data);
+        $scope.productDetails = response.data["product"];
+        $scope.location="https://maps.google.com/maps?q=Pakistan&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed";
+        console.log($scope.productDetails);
+        $scope.relatedAds($scope.productDetails["category_id"]);
+      })
+      .catch(function (error) {
+        console.log("This is error");
+        console.log(error);
+      });
+  };
+  //get products details
+
   //get list of all product categories
   $scope.getProductCategory = function (id) {
     $http({
