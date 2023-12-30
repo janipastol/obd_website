@@ -142,7 +142,7 @@
                         <div class="product_image" >
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade" id="details-1" role="tabpanel" aria-labelledby="details-1-tab" ng-repeat="i in productDetails.all_images track by $index" ng-class="{'show active': $index == 0}">
-                                    <img src="{{productImage}}{{i}}" alt="product details">
+                                    <img src="{{productImage}}{{i}}" alt="product details" style="height: 500px;">
                                     <!-- <ul class="sticker">
                                         <li>Featured</li>
                                         <li>New</li>
@@ -161,7 +161,7 @@
                             <ul class="nav" id="myTab" role="tablist">
                                 <li class="nav-item" ng-repeat="i in productDetails.all_images">
                                     <a class="active" id="details-1-tab" data-toggle="tab" href="#details-1" role="tab" aria-controls="details-1" aria-selected="true" >
-                                        <img src="{{productImage}}{{i}}" alt="product details">
+                                        <img src="{{productImage}}{{i}}" alt="product details" style="height: 150px;">
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item">
@@ -552,7 +552,7 @@
                         <div class="col-md-3" ng-repeat="r in relatedProductAds">
                             <div class="single_ads_card mt-30">
                                 <div class="ads_card_image">
-                                    <img src="{{productImage}}{{r.featured_image}}" alt="ads">
+                                    <img src="{{productImage}}{{r.featured_image}}" alt="ads" style="height: 190px; width: 550px;">
                                 </div>
                                 <div class="ads_card_content">
                                     <div class="meta d-flex justify-content-between">

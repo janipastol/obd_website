@@ -103,7 +103,7 @@
                 <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li>
-                            <a class="active" href="index-2.php">Home <span class="line"></span></a>
+                            <a class="active" href="index.php">Home <span class="line"></span></a>
                         </li>
                         <li>
                             <a href="categories.php">Categories <span class="line"></span></a>

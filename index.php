@@ -202,7 +202,7 @@
                             <div class="col-lg-3 col-sm-6" ng-repeat="a in allAds">
                                 <div class="single_ads_card ">
                                     <div class="ads_card_image">
-                                        <img src="{{productImage}}{{a.featured_image}}" alt="ads" />
+                                        <img src="{{productImage}}{{a.featured_image}}" alt="ads" style="height: 190px;"/>
                                     </div>
                                     <div class="ads_card_content">
                                         <div class="meta d-flex justify-content-between">
@@ -210,7 +210,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.php">{{a.description | limitTo:30}}</a>
+                                            <a href="product-details.php?id={{a.id}}">{{a.description | limitTo:30}}</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>{{a.user.location}}</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -227,7 +227,7 @@
                             <div class="col-lg-3 col-sm-6" ng-repeat="a in featuredAds">
                                 <div class="single_ads_card mt-30">
                                     <div class="ads_card_image">
-                                        <img src="{{productImage}}{{a.featured_image}}" alt="ads" />
+                                        <img src="{{productImage}}{{a.featured_image}}" alt="ads" style="height: 190px;"/>
                                         <p class="sticker">Featured</p>
                                     </div>
                                     <div class="ads_card_content">
@@ -236,7 +236,7 @@
                                             <a class="like" href="#"><i class="fal fa-heart"></i></a>
                                         </div>
                                         <h4 class="title">
-                                            <a href="product-details.php">{{a.description | limitTo:30}}</a>
+                                            <a href="product-details.php?id={{a.id}}">{{a.description | limitTo:30}}</a>
                                         </h4>
                                         <p><i class="far fa-map-marker-alt"></i>{{a.user.location}}</p>
                                         <div class="ads_price_date d-flex justify-content-between">
@@ -271,7 +271,7 @@
                     <div class="col-lg-3 col-sm-6" ng-repeat="p in productCategoriesListMobile">
                         <div class="single_ads_card ">
                             <div class="ads_card_image">
-                                <img src="{{productImage}}{{p.featured_image}}" alt="ads" />
+                                <img src="{{productImage}}{{p.featured_image}}" alt="ads" style="height: 190px;"/>
                             </div>
                             <div class="ads_card_content">
                                 <div class="meta d-flex justify-content-between">
@@ -315,7 +315,7 @@
                     <div class="col-lg-3 col-sm-6" ng-repeat="p in productCategoriesListBikes">
                         <div class="single_ads_card ">
                             <div class="ads_card_image">
-                                <img src="{{productImage}}{{p.featured_image}}" alt="ads" />
+                                <img src="{{productImage}}{{p.featured_image}}" alt="ads" style="height: 190px;"/>
                             </div>
                             <div class="ads_card_content">
                                 <div class="meta d-flex justify-content-between">
